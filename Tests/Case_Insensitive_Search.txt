@@ -1,0 +1,6 @@
+Feature: Product Recommendations in Search Field
+
+Scenario: Case-insensitive search
+  Given the user is on the search page
+  When the user types "Laptop" in the search field
+  Then the dropdown should display recommendations for "laptop" regardless of case
