@@ -1,0 +1,6 @@
+Feature: Product Recommendations in Search Field
+
+Scenario: Handle large number of products
+  Given the product database contains a large number of products
+  When the user types "book" in the search field
+  Then the system should efficiently display relevant product recommendations without delay
