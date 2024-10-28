@@ -1,0 +1,7 @@
+Feature: Product Recommendations in Search Field
+
+Scenario: Dynamic update of recommendations
+  Given the user is on the search page
+  When the user types "cam" in the search field
+  And the user continues typing "era"
+  Then the dropdown should dynamically update to show recommendations for "camera"
