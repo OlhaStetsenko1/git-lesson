@@ -1,0 +1,6 @@
+Feature: Product Recommendations in Search Field
+
+Scenario: Display product name and thumbnail
+  Given the user is on the search page
+  When the user types "tablet" in the search field
+  Then each recommendation in the dropdown should display the product name and a thumbnail image
