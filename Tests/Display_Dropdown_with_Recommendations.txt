@@ -1,0 +1,6 @@
+Feature: Product Recommendations in Search Field
+
+Scenario: Display dropdown with recommendations
+  Given the user is on the search page
+  When the user starts typing "laptop" in the search field
+  Then a dropdown should appear with product recommendations
