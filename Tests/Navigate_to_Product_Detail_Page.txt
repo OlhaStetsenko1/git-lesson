@@ -1,0 +1,6 @@
+Feature: Product Recommendations in Search Field
+
+Scenario: Navigate to product detail page
+  Given the user is on the search page
+  When the user clicks on a recommendation for "smartwatch"
+  Then the user should be taken to the product's detail page for "smartwatch"
