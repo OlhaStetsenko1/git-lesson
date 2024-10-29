@@ -1,0 +1,8 @@
+Feature: Product Recommendations in Search Field
+
+  Scenario: Display product recommendations when user starts typing
+    Given the user is on the homepage
+    When the user starts typing "laptop" in the search field
+    Then a dropdown should appear with product recommendations
+    And the recommendations should be relevant to "laptop"
+    And each recommendation should display the product name and a thumbnail image
