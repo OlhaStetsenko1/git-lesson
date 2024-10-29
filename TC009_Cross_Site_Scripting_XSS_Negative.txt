@@ -1,0 +1,5 @@
+| Test Case ID | Test Case Title | Preconditions | Priority | Test Steps | Expected Results |
+|--------------|------------------|-----------------|----------|-------------|------------------|
+| TC009 | Cross-Site Scripting (XSS) - Negative | User is on the login page | High | 1. Enter XSS script in the username field | XSS script is entered successfully |
+| | | | | 2. Enter XSS script in the password field | XSS script is entered successfully |
+| | | | | 3. Click on the 'Login' button | Error message "Invalid username or password" is displayed |
