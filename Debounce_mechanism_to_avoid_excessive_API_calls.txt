@@ -1,0 +1,6 @@
+Feature: Product Recommendations in Search Field
+
+  Scenario: Debounce mechanism to avoid excessive API calls
+    Given the user is on the homepage
+    When the user types rapidly in the search field
+    Then the search field should have a debounce mechanism to avoid excessive API calls
