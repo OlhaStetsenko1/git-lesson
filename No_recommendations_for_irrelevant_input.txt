@@ -1,0 +1,6 @@
+Feature: Product Recommendations in Search Field
+
+  Scenario: No recommendations for irrelevant input
+    Given the user is on the homepage
+    When the user types "xyz123" in the search field
+    Then no product recommendations should be displayed
