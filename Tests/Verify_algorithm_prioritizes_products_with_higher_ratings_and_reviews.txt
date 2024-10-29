@@ -1,0 +1,9 @@
+Feature: Search Algorithm
+As a user
+I want the search algorithm to provide accurate and relevant product recommendations
+So that I can have an enhanced search experience
+
+Scenario: Algorithm prioritizes products with higher ratings and reviews
+Given a user is on the search page
+When the user types "headphones" in the search bar
+Then the search algorithm should prioritize headphones with higher ratings and reviews in the recommendations
