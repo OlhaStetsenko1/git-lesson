@@ -1,0 +1,8 @@
+Feature: Product Recommendations in Search Field
+
+  Scenario: Clicking on a recommendation takes user to product detail page
+    Given the user is on the homepage
+    And the user has typed "laptop" in the search field
+    And a dropdown with product recommendations is displayed
+    When the user clicks on a recommendation
+    Then the user should be taken to the product's detail page
