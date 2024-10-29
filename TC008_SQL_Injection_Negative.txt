@@ -1,0 +1,5 @@
+| Test Case ID | Test Case Title | Preconditions | Priority | Test Steps | Expected Results |
+|--------------|------------------|-----------------|----------|-------------|------------------|
+| TC008 | SQL Injection - Negative | User is on the login page | High | 1. Enter SQL code in the username field | SQL code is entered successfully |
+| | | | | 2. Enter SQL code in the password field | SQL code is entered successfully |
+| | | | | 3. Click on the 'Login' button | Error message "Invalid username or password" is displayed |
