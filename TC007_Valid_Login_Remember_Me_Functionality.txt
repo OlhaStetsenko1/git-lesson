@@ -1,0 +1,8 @@
+| Test Case ID | Test Case Title | Preconditions | Priority | Test Steps | Expected Results |
+|--------------|------------------|-----------------|----------|-------------|------------------|
+| TC007 | Valid Login - Remember Me Functionality | User is on the login page | Low | 1. Enter valid username in the username field | Username is entered successfully |
+| | | | | 2. Enter valid password in the password field | Password is entered successfully |
+| | | | | 3. Check the 'Remember Me' checkbox | Checkbox is checked |
+| | | | | 4. Click on the 'Login' button | User is redirected to the homepage |
+| | | | | 5. Log out and return to the login page | User is on the login page |
+| | | | | 6. Verify that the username field is pre-filled with the remembered username | Username field is pre-filled with the remembered username |
