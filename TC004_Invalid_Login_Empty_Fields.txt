@@ -1,0 +1,5 @@
+| Test Case ID | Test Case Title | Preconditions | Priority | Test Steps | Expected Results |
+|--------------|------------------|-----------------|----------|-------------|------------------|
+| TC004 | Invalid Login - Empty Fields | User is on the login page | Medium | 1. Leave the username field empty | Username field remains empty |
+| | | | | 2. Leave the password field empty | Password field remains empty |
+| | | | | 3. Click on the 'Login' button | Error message "Please enter username and password" is displayed |
