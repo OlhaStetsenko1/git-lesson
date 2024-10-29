@@ -1,0 +1,10 @@
+Feature: Search Algorithm
+As a user
+I want the search algorithm to provide accurate and relevant product recommendations
+So that I can have an enhanced search experience
+
+Scenario: Search algorithm considers product popularity, user behavior, and keywords
+Given a user is on the search page
+When the user types "laptop" in the search bar
+Then the search algorithm should consider product popularity, user behavior, and keywords
+And the recommendations should include popular laptops, laptops frequently viewed by similar users, and laptops matching the keyword "laptop"
