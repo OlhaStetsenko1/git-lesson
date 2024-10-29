@@ -1,0 +1,7 @@
+Feature: Product Recommendations in Search Field
+
+  Scenario: Update recommendations dynamically as user continues typing
+    Given the user is on the homepage
+    And the user has typed "lap" in the search field
+    When the user continues typing "top"
+    Then the recommendations should update dynamically to match "laptop"
