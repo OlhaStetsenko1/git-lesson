@@ -1,0 +1,10 @@
+Feature: Search Algorithm
+As a user
+I want the search algorithm to provide accurate and relevant product recommendations
+So that I can have an enhanced search experience
+
+Scenario: System handles misspellings and provides relevant recommendations
+Given a user is on the search page
+When the user types "smarphone" (misspelled) in the search bar
+Then the search algorithm should handle the misspelling
+And provide relevant recommendations for "smartphone"
