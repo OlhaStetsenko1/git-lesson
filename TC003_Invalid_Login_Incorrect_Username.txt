@@ -1,0 +1,5 @@
+| Test Case ID | Test Case Title | Preconditions | Priority | Test Steps | Expected Results |
+|--------------|------------------|-----------------|----------|-------------|------------------|
+| TC003 | Invalid Login - Incorrect Username | User is on the login page | High | 1. Enter incorrect username in the username field | Username is entered successfully |
+| | | | | 2. Enter valid password in the password field | Password is entered successfully |
+| | | | | 3. Click on the 'Login' button | Error message "Invalid username or password" is displayed |
