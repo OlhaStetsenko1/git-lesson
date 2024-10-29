@@ -1,0 +1,49 @@
+Feature: Display Product Recommendations in Search Field
+
+  As a user, I want to see product recommendations when I use the search field, so that I can quickly find relevant products without having to type the full product name.
+
+  Background:
+    Given the user is on the homepage
+
+  Scenario: Display recommendations when user starts typing
+    Given the user starts typing in the search field
+    Then product recommendations should appear
+
+  Scenario: Display relevant recommendations
+    Given the user types "laptop" in the search field
+    Then the recommendations should be relevant to "laptop"
+
+  Scenario: Update recommendations dynamically
+    Given the user types "phone" in the search field
+    When the user continues typing "case"
+    Then the recommendations should update dynamically to be relevant to "phone case"
+
+  Scenario: Clickable recommendations
+    Given the user sees product recommendations
+    When the user clicks on a recommendation
+    Then the user should be taken to the respective product page
+
+  Scenario: Maximum of 10 recommendations
+    Given the user types in the search field
+    Then the system should display a maximum of 10 recommendations
+
+  Scenario: Recommendations based on popular products and recent searches
+    Given the user starts typing in the search field
+    Then the recommendations should be based on popular products and recent searches
+
+  Scenario: Responsive design for desktop and mobile
+    Given the user is on a desktop device
+    When the user starts typing in the search field
+    Then the recommendations should be displayed correctly
+
+    Given the user is on a mobile device
+    When the user starts typing in the search field
+    Then the recommendations should be displayed correctly
+
+  Scenario: No recommendations for irrelevant input
+    Given the user types "xyz123" in the search field
+    Then no product recommendations should appear
+
+  Scenario: Recommendations appear after a short delay
+    Given the user starts typing in the search field
+    Then product recommendations should appear after a short delay
