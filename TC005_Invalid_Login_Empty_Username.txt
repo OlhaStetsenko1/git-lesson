@@ -1,0 +1,5 @@
+| Test Case ID | Test Case Title | Preconditions | Priority | Test Steps | Expected Results |
+|--------------|------------------|-----------------|----------|-------------|------------------|
+| TC005 | Invalid Login - Empty Username | User is on the login page | Medium | 1. Leave the username field empty | Username field remains empty |
+| | | | | 2. Enter valid password in the password field | Password is entered successfully |
+| | | | | 3. Click on the 'Login' button | Error message "Please enter username" is displayed |
