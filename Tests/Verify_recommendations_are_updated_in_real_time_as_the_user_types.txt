@@ -1,0 +1,10 @@
+Feature: Search Algorithm
+As a user
+I want the search algorithm to provide accurate and relevant product recommendations
+So that I can have an enhanced search experience
+
+Scenario: Recommendations are updated in real-time as the user types
+Given a user is on the search page
+When the user starts typing "smartphone" in the search bar
+Then the recommendations should be updated in real-time with each keystroke
+And the recommendations should become more accurate as the user types more characters
