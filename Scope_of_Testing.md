@@ -1,0 +1,11 @@
+### Scope of Testing
+
+| Section            | Details                                                                 |
+|--------------------|-------------------------------------------------------------------------|
+| **Objectives**     | The primary objective of the testing effort is to ensure that the software product meets the specified requirements and functions correctly in all intended environments. The testing will aim to identify and resolve defects, verify that the product performs as expected, and validate that it meets user needs and business objectives.                    |
+| **In-Scope Items** | The following features, functionalities, and components will be tested: <br> - User authentication and authorization <br> - Data input and output validation <br> - User interface and user experience <br> - Integration with third-party services <br> - Performance under load <br> - Security vulnerabilities |
+| **Out-of-Scope Items** | The following features, functionalities, and components will not be tested: <br> - Legacy system compatibility <br> - Non-functional requirements not specified in the project scope <br> - Features planned for future releases |
+| **Test Types**     | The types of testing that will be performed include: <br> - Functional testing <br> - Performance testing <br> - Security testing <br> - Usability testing <br> - Regression testing |
+| **Test Levels**    | The levels of testing that will be covered include: <br> - Unit testing <br> - Integration testing <br> - System testing <br> - Acceptance testing |
+| **Assumptions**    | The following assumptions are made during the planning of the testing scope: <br> - All necessary test environments will be available and configured correctly <br> - Test data will be provided and will be representative of real-world scenarios <br> - Development team will fix identified defects in a timely manner |
+| **Constraints**    | The following constraints may impact the testing effort: <br> - Limited availability of test resources <br> - Tight project deadlines <br> - Dependencies on third-party services for integration testing |
